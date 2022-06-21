@@ -2,3 +2,5 @@ Papa
 Camote
 Zapallo
 Peregil
+cebolla
+perejil

@@ -2,5 +2,3 @@ Papa
 Camote
 Zapallo
 Peregil
-Naranja
-Banana

@@ -3,7 +3,7 @@
 var x=1;
 var cuantos;
 var valor;
-var nummayor;
+var nummayor=0;
 
 cuantos = prompt('Defina la cantidad de numeros que desea ingresar', '');
 cuantos = parseInt(cuantos);
@@ -11,11 +11,10 @@ cuantos = parseInt(cuantos);
 while (x <= cuantos) {
     valor = prompt('Ingrese el valor ' + x + ' de ' + cuantos + ':', '');
     valor = parseInt(valor);
-    valor >= nummayor
-    nummayor = valor
-    nummayor = parseInt(nummayor);
-    
- 
+    if (valor >= nummayor) {
+        nummayor = valor
+        nummayor = parseInt(nummayor);
+    }
     x = x + 1;
     
 }
